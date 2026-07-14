@@ -19,13 +19,13 @@
 
 ```powershell
 python -m pip install -r requirements.txt
-python graph_cut_integrated_information/plot_graph_cut.py
+python "5th report/plot_graph_cut.py"
 ```
 
 GUI を使わずに画像だけを生成する場合は、次のように実行します。
 
 ```powershell
-python graph_cut_integrated_information/plot_graph_cut.py --no-show
+python "5th report/plot_graph_cut.py" --no-show
 ```
 
 出力画像は、このフォルダ内の `graph_cut_integrated_information.png` に保存されます。保存先は `--output` オプションで変更できます。
